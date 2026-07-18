@@ -38,4 +38,5 @@ well, cant use nwg-look? just use your desktop environment's appearance settings
 
 >> all of this was about the Yaru-blue icon theme and nwg-look so you can set Yaru-blue. Frost itself is not a icon theme but a color palette. see in the file tree. 
 _____________________________________________________
-![frost](banner.png)
+![Fits best with this wallpaper:](fits-best-with-this-wallpaper.png)
+![frost.](banner.png)
