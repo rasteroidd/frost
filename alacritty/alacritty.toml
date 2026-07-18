@@ -1,0 +1,13 @@
+[colors.primary]
+background = '#414457'
+foreground = '#d1d5e3'
+dim_foreground = '#8A929E'
+bright_foreground = '#F1F5F9'
+
+[colors.cursor]
+text = '#1E222A'
+cursor = '#A4B9EF'
+
+[colors.selection]
+text = '#1E222A'
+background = '#6477A4'
