@@ -15,7 +15,7 @@ debian/ubuntu
 sudo apt install yaru-theme-icon`
 
 void
-`sudo xbps-install -S yaru-theme`
+`sudo xbps-install -Sy yaru-theme`
 
 in case you don't have nwg-look or "GTK Settings" installed, install it with
 `sudo pacman -S --noconfirm nwg-look`.
@@ -29,6 +29,9 @@ fedora
 
 ubuntu/debian
 `sudo apt update && sudo apt install nwg-look libgtk-3-dev`
+
+void
+`sudo xbps-install -Sy nwg-look gtk3`
 ### sadly nwg-look is probably only found in newer versions of Ubuntu/Debian. if you have a older version (before Debian 13, or before Ubuntu 24.04 LTS)
 
 well, cant use nwg-look? just use your desktop environment's appearance settings!
