@@ -1,0 +1,93 @@
+configuration {
+    modi: "run,drun,window";
+    icon-theme: "Yaru-blue";
+    show-icons: true;
+    terminal: "alacritty";
+    drun-display-format: "{name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    sidebar-mode: false;
+}
+
+* {
+    bg-col:  #414457cc;
+    border-col: #a0a5f5;
+    selected-col: #6B82A8;
+    fg-col: #e1e5f3;
+
+    width: 600;
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+window {
+    height: 360px;
+    border: 2px;
+    border-color: @border-col;
+    border-radius: 12px;    /* Cantos arredondados externos */
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: transparent;
+}
+
+inputbar {
+    children: [prompt,entry];
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+prompt {
+    background-color: @border-col;
+    padding: 6px;
+    text-color: #1E222A;
+    border-radius: 8px;     /* Cantos da tag de entrada */
+    margin: 10px 0px 0px 10px;
+}
+
+entry {
+    padding: 6px;
+    margin: 10px 10px 0px 10px;
+    text-color: @fg-col;
+    background-color: transparent;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+    margin: 10px 10px 10px 10px;
+    columns: 1;
+    lines: 5;
+    background-color: transparent;
+}
+
+element {
+    padding: 8px;
+    background-color: @bg-col;
+    text-color: @fg-col;
+    border-radius: 8px;     /* Elementos da lista arredondados */
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: #1E222A;   /* Texto escuro no fundo azul para ler bem */
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: @fg-col;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color: @fg-col;
+}
