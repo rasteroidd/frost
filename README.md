@@ -31,6 +31,8 @@ ubuntu/debian
 `sudo apt update && sudo apt install nwg-look libgtk-3-dev`
 ### sadly nwg-look is probably only found in newer versions of Ubuntu/Debian. if you have a older version (before Debian 13, or before Ubuntu 24.04 LTS)
 
+well, cant use nwg-look? just use your desktop environment's appearance settings!
+
 >> all of this was about the Yaru-blue icon theme and nwg-look so you can set Yaru-blue. Frost itself is not a icon theme but a color palette. see in the file tree. 
 _____________________________________________________
 ![frost](banner.png)
