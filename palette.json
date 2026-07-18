@@ -1,0 +1,14 @@
+{
+  "mainbg": #21212b,
+  "mainbg-lighter": #414457,
+  "mainfg": #d1d5e3,
+  "mainfg-lighter": #e1e5f3,
+  "selection": #393d52,
+  "colors": [{
+    "red": #dd1024,
+    "red-lighter": #ff3040,
+    "orange": #ee7035,
+    "orange-lighter": #ff8050,
+    "green": #23dd52,
+    "green-lighter": #30ff70,
+ }
