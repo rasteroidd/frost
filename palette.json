@@ -29,12 +29,15 @@
       "default": "5353f5",
       "icy": "a0a5f5"
     },
+    "cyan": {
+      "default": "90ffff"
     "violet": {
       "default": "a9a3e6",
       "dark": "596090"
     },
     "rosewater": "f9e6fa",
     "mauve": "e2b0ff"
+    "white": "eeeeff"
   },
   "other_colors": {
     "surface0": "292936",
