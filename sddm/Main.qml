@@ -9,7 +9,11 @@ Item {
 
     Image {
         id: bgImage
-        source: "flowering-rain.png"
+// Replace blank with your wallpaper path. IT IS RECOMMENDED TO PUT YOUR WALLPAPER IN YOUR SDDM THEME FOLDER.
+// Before, you do these changes, run sudo mkdir -p /usr/share/sddm/themes/frost/
+// After, copy your wallpaper to the /themes/frost/ folder: sudo cp /path/to/ur/wallpaper.png /usr/share/sddm/themes/frost/
+// Finally, rename blank to your wallpaper's file name (no need to provide path). example source: "flowering-rain.png"
+        source: "blank"
         anchors.fill: parent
         fillMode: Image.PreserveAspectCrop
     }
